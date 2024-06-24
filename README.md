@@ -1,10 +1,10 @@
-# Nice LLM but can it run Gherkin? Experiments on test scenario execution with Language Models
+# First Experiments on Automated Execution of Gherkin Test Specifications with Collaborating LLM Agents
 
 This is the online appendix for a paper submitted to the [A-Test workshop](https://a-test.org/).
  
 ## Abstract
 
-Gherkin serves as a structured language for defining software behaviors in natural language, particularly valuable in the context of automated testing. With recent advancements in natural language processing, including the emergence of Large Language Models (LLMs), there is growing potential to leverage such linguistic definitions for automated testing purposes. This paper investigates the feasibility and effectiveness of employing LLMs to execute Gherkin test scripts for web application testing, utilizing the AutoGen framework for orchestration and coordination. Our preliminary findings suggest that our LLM agent system has the potential to automate test scenarios. We found high success rates for executing simple as well as more complex test scenarios but observed existing hurdles regarding fault detection.
+Gherkin is a domain-specific language for describing test scenarios in natural language, which are the basis for automated acceptance testing. The emergence of Large Language Models (LLMs) has opened up new possibilities for processing such test specifications and for generating executable test code. This paper investigates the feasibility of employing LLMs to execute Gherkin test specifications utilizing the AutoGen multi-agent framework. Our findings show that our LLM agent system is able to automatically run the given test scenarios by autonomously exploring the system under test, generating executable test code on the fly, and evaluating execution results. We observed high success rates for executing simple as well as more complex test scenarios, but we also identified difficulties regarding failure scenarios and fault detection.
 
 ## Repo Content
 
